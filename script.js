@@ -10,14 +10,18 @@ yesBtn.addEventListener("click", () => {
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
-noBtn.addEventListener("mouseover", () => {
-  const noBtnRect = noBtn.getBoundingClientRect();
-  const maxX = window.innerWidth - noBtnRect.width;
-  const maxY = window.innerHeight - noBtnRect.height;
-
+noBtn.addEventListener("click", () => {
+  const audio = document.querySelector(".audio-player");
+  audio.play();
+ 
+  const wrapper = document.querySelector(".wrapper");
+  const wrapperRect = wrapper.getBoundingClientRect();
+  const maxX = window.innerWidth - wrapperRect.width;
+  const maxY = window.innerHeight - wrapperRect.height;
+ 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
-
+ 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
-});
+ });
