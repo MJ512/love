@@ -9,7 +9,8 @@ yesBtn.addEventListener("click", () => {
   gif.src =
     "loveyou.gif";
   const audio = document.querySelector(".audio-player");
-  audio.play();
+  audioYes.play();
+  audioNo.pause();
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
 });
