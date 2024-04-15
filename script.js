@@ -10,8 +10,8 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love You My Angel";
   gif.src =
     "loveyou.gif";
-  audioYes.play();
   audioNo.pause();
+  audioYes.play();
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
 });
