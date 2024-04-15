@@ -45,7 +45,7 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid black;
+    border: 2px solid white;
     font-size: 1.2em;
 }
 button:nth-child(1) {
@@ -55,5 +55,5 @@ button:nth-child(1) {
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
-    color: white;
+    color: black;
 }
