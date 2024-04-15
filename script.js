@@ -3,12 +3,13 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const audioYes = document.querySelector(".audio-player");
+const audioNo = document.querySelector(".audio-player1");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love You My Angel";
   gif.src =
     "loveyou.gif";
-  const audioYes = document.querySelector(".audio-player");
   audioYes.play();
   audioNo.pause();
   yesBtn.style.display = "none";
@@ -16,9 +17,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-  const audioNo = document.querySelector(".audio-player1");
   audioNo.play();
- 
   const wrapper = document.querySelector(".wrapper");
   const wrapperRect = wrapper.getBoundingClientRect();
   const maxX = window.innerWidth - wrapperRect.width;
