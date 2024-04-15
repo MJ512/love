@@ -33,7 +33,9 @@ h2 {
     justify-content: center;
     margin-top: 50px;
 }
-button {
+button { 
+    background-color: black;
+    color: white;
     position: absolute;
     width: 150px;
     height: inherit;
