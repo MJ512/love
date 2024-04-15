@@ -54,6 +54,6 @@ button:nth-child(1) {
 }
 button:nth-child(2) {
     margin-right: -200px;
-    background: black;
+    background: white;
     color: white;
 }
