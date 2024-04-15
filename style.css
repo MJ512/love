@@ -45,7 +45,7 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid white;
+    border: 2px solid grey;
     font-size: 1.2em;
 }
 button:nth-child(1) {
