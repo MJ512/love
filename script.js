@@ -15,7 +15,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-  const audio = document.querySelector(".audio-player");
+  const audio = document.querySelector(".audio-player1");
   audio.play();
  
   const wrapper = document.querySelector(".wrapper");
