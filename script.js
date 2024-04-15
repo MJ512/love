@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love You My Angel";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "loveyou.gif";
   const audio = document.querySelector(".audio-player");
   audio.play();
   yesBtn.style.display = "none";
