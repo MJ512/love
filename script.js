@@ -8,7 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love You My Angel";
   gif.src =
     "loveyou.gif";
-  const audio = document.querySelector(".audio-player");
+  const audioYes = document.querySelector(".audio-player");
   audioYes.play();
   audioNo.pause();
   yesBtn.style.display = "none";
@@ -16,8 +16,8 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-  const audio = document.querySelector(".audio-player1");
-  audio.play();
+  const audioNo = document.querySelector(".audio-player1");
+  audioNo.play();
  
   const wrapper = document.querySelector(".wrapper");
   const wrapperRect = wrapper.getBoundingClientRect();
