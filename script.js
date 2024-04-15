@@ -7,7 +7,7 @@ const audioYes = document.querySelector(".audio-player");
 const audioNo = document.querySelector(".audio-player1");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I love You My Angel";
+  question.innerHTML = "I love You Muu";
   gif.src =
     "loveyou.gif";
   audioNo.pause();
