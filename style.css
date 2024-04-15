@@ -50,10 +50,10 @@ button {
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: black;
+    background: white;
 }
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
-    color: black;
+    color: white;
 }
